@@ -3,7 +3,7 @@ function App() {
  
   return (
     <>
-      <h1>Bora começar a trabalhar</h1>
+      <h1>Bora começar a</h1>
     </>
   )
 }
