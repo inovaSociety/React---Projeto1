@@ -1,9 +1,12 @@
+import Home from "./components/Home"
+import Navbar from "./components/Navbar"
 
 function App() {
  
   return (
     <>
-      <h1>Bora começar a</h1>
+      <Home/>
+      <Navbar/>
     </>
   )
 }
