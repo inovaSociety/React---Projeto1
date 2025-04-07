@@ -1,6 +1,5 @@
 import Footer from "./components/Footer"
-import Home from "./components/Home"
-import Navbar from "./components/Navbar"
+import Page1 from "./components/Page1"
 import Page2 from "./components/Page2"
 import Page5 from "./components/Page5"
 
@@ -8,8 +7,7 @@ function App() {
  
   return (
     <>
-      <Navbar/>
-      <Home/>
+      <Page1/>
       <Page2/>
       <Page5/>
       <Footer/>

@@ -4,8 +4,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-        <h1>Teste</h1>
-        <h2>hhjhj</h2>
+        <img src="./src/imgs/benjamin-chambon-ljDxbmrwdpc-unsplash 1.svg" alt="AAAAAAAAA" />
     </div>
   )
 }

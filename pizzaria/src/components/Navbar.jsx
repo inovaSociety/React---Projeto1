@@ -1,4 +1,5 @@
 import React from 'react'
+import './Navbar.css'
 
 const Navbar = () => {
 
@@ -7,7 +8,7 @@ const Navbar = () => {
           <div className='navbar-container'>
 
             <div className='navbar-logo'>
-              <a className='navbar-logo'><img src="/imgs/logo.svg" alt="logo-adventure" /></a>
+              <a className='navbar-logo'><img src="./src/imgs/{04A74FB6-048D-40CD-9DD2-EAFCE95993E6} 1.svg" alt="logo-adventure" /></a>
             </div>
             <ul className='navbar-opcoes'>
               <li>Homens</li>
