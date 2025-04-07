@@ -8,22 +8,77 @@ const Page5 = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      breakpoint: { max: 4000, min: 1024 },
+      items: 4,
+      
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      breakpoint: { max: 1024, min: 800 },
+      items: 3,
+      slidesToSlide: 3
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
+      breakpoint: { max: 800, min: 464 },
+      items: 2,
+      slidesToSlide: 2
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1
     }
   };
+
+  const productData = [
+    {
+      id: 1,
+      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imagealt: 'card title',
+      title:'EASY RYDER'
+    },
+    {
+      id: 2,
+      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imagealt: 'card title',
+      title:'EASY RYDER'
+    },
+    {
+      id: 3,
+      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imagealt: 'card title',
+      title:'EASY RYDER'
+    },
+    {
+      id: 4,
+      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imagealt: 'card title',
+      title:'EASY RYDER'
+    },
+    {
+      id: 5,
+      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imagealt: 'card title',
+      title:'EASY RYDER'
+    },
+    {
+      id: 6,
+      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imagealt: 'card title',
+      title:'EASY RYDER'
+    },{
+      id: 7,
+      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imagealt: 'card title',
+      title:'EASY RYDER'
+    }
+  ]
+
+  const product = productData.map(item => (
+    <Card
+     key = {item.id} 
+     imgSrc={item.imageUrl} 
+     imgalt={item.imagealt} 
+     title={item.title}/>
+  ))
 
 
 
@@ -33,19 +88,7 @@ const Page5 = () => {
     <div>
         CARROSEL
         <Carousel responsive={responsive}>
-          <div>
-          <Card imgSrc='./src/imgs/EASY-RIDER_3.webp' imgAlt="card title" title='EASY RYDER'/>
-      
-          </div>
-          <div>Item 2
-            <Card imgSrc='./src/imgs/EASY-RIDER_3.webp' imgAlt="card title" title='EASY RYDER'/>
-          </div>
-          <div>Item 3
-            <Card imgSrc='./src/imgs/EASY-RIDER_3.webp' imgAlt="card title" title='EASY RYDER'/>
-          </div>
-          <div>Item 4
-            <Card imgSrc='./src/imgs/EASY-RIDER_3.webp' imgAlt="card title" title='EASY RYDER'/>
-          </div>
+         {product}
         </Carousel>
         
     </div>
