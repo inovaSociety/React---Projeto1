@@ -37,15 +37,15 @@ const Page5 = () => {
     },
     {
       id: 2,
-      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imageUrl: './src/imgs/PUMA-180OK.WEBP',
       imagealt: 'card title',
-      title:'EASY RYDER'
+      title:'PUMA 18OK'
     },
     {
       id: 3,
-      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imageUrl: './src/imgs/Carina.webp',
       imagealt: 'card title',
-      title:'EASY RYDER'
+      title:'CARINA'
     },
     {
       id: 4,
@@ -55,15 +55,15 @@ const Page5 = () => {
     },
     {
       id: 5,
-      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imageUrl: './src/imgs/PUMA-180OK.WEBP',
       imagealt: 'card title',
-      title:'EASY RYDER'
+      title:'PUMA 18OK'
     },
     {
       id: 6,
-      imageUrl: './src/imgs/EASY-RIDER_3.webp',
+      imageUrl: './src/imgs/Carina.webp',
       imagealt: 'card title',
-      title:'EASY RYDER'
+      title:'CARINA'
     },{
       id: 7,
       imageUrl: './src/imgs/EASY-RIDER_3.webp',
