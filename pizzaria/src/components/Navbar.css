@@ -1,0 +1,38 @@
+.navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-opcoes{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar-opcoes li{
+    list-style: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 60px;
+  }
+  
+  .navbar-icones{
+    display: flex;
+    gap: 2rem;
+  }
+  .navbar-icones li{
+    list-style: none;
+    color: white;
+  }
+  .navbar-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+    background-color: #433E3E;
+  }

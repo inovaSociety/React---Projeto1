@@ -8,6 +8,8 @@ function App() {
  
   return (
     <>
+      <Navbar/>
+      <Home/>
       <Page2/>
       <Page5/>
       <Footer/>
