@@ -1,12 +1,13 @@
 import Home from "./components/Home"
 import Navbar from "./components/Navbar"
+import Page5 from "./components/Page5"
 
 function App() {
  
   return (
     <>
-      <Home/>
-      <Navbar/>
+      
+      <Page5/>
     </>
   )
 }
