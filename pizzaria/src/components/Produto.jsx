@@ -1,13 +1,13 @@
 import React from 'react'
 import './Produto.css'
 
-const Produto = () => {
+const Produto = ({imagem, nome, preco}) => {
   return (
     <div>
         <div className="product-card">
-            <img src="./src/imgs/PUMA-180OK.WEBP" alt="Tênis 3" />
-            <h3>Tênis de Corrida Deviate NITRO™ 3 Masculino</h3>
-            <p>R$ 1.199,99</p>
+            <img src={imagem} alt={nome} />
+            <h3>{nome}</h3>
+            <p>{preco}</p>
         </div>
     </div>
   )

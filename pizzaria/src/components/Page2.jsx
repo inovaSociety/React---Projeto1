@@ -1,11 +1,11 @@
 import React from 'react';
 import Produto from './Produto';
+import ListaDeProdutos from './ListaDeProdutos';
 
 function Page2() {
   return (
     <div > 
-      
-      <Produto/>
+      <ListaDeProdutos/>
       
     </div>
   );
