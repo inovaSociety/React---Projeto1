@@ -11,13 +11,6 @@
     color: #000;
 }
 
-.banner-content {
-    background: rgba(233, 233, 245, 0.85);
-    padding: 20px 30px;
-    border-radius: 8px;
-    max-width: 400px;
-}
-
 .title {
     font-size: 32px;
     font-weight: bold;
