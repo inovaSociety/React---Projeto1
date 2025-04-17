@@ -1,0 +1,44 @@
+.easy-rider-banner {
+    position: relative;
+    background-image: url('./src/imgs/easyrider.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 80px;
+    color: #000;
+}
+
+.banner-content {
+    background: rgba(233, 233, 245, 0.85);
+    padding: 20px 30px;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.buy-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #333;
+}
